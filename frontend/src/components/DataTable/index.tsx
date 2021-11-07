@@ -32,7 +32,6 @@ function DataTable() {
 
   return (
     <>
-      <Pagination page={page} onPageChange={changePage} />
       <div className="table-responsive">
         <table className="table table-striped table-sm">
           <thead>
@@ -57,6 +56,7 @@ function DataTable() {
           </tbody>
         </table>
       </div>
+      <Pagination page={page} onPageChange={changePage} />
     </>
   );
 }
