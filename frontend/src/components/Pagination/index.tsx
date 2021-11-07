@@ -1,5 +1,4 @@
 import { SalePage } from "types/sale";
-import onPageChange from "../DataTable";
 
 type Props = {
     page: SalePage
